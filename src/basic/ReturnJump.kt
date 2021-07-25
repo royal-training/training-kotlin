@@ -150,6 +150,7 @@ inline fun <T> Array<out T>.forEachBreak(action: (T) -> Boolean): Unit {
 }
 
 fun main() {
+    DemoBreak::class.java.classLoader
     DemoBreak().run {
         forLambda()
         breakLabel()

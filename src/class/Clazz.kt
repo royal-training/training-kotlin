@@ -1,6 +1,5 @@
+package `class`
 
-## 显示的继承
-```kotlin
 // 继承中的 覆盖
 // kotlin 中 如果你想要一个函数可以被 继承， 那么你需要在 父类 和 子类都进行声明
 
@@ -36,4 +35,4 @@ class Square : Rectangle(), Polygon {
         super<Rectangle>.draw()
     }
 }
-```
+
